@@ -1,0 +1,47 @@
+<head>
+    <title>Pomodoro Clock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="app" class="hero is-info is-fullheight is-bold">
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <h2 class="title is-6">Let the countdown begin!!</h2>
+            
+                <div id="timer">
+                    <span id="minutes">20</span>
+                    <span id="middle">:</span>
+                    <span id="seconds">00</span>
+                </div>
+
+                <div id="buttons">
+                    <button 
+                        id="start"
+                        class="button is-dark is-large"
+                        v-if="!timer"
+                        @click="startTimer">
+                            <i class="far fa-play-circle"></i>>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+
+    </section>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
